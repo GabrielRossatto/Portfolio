@@ -1,0 +1,152 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Baskervville', sans-serif;
+        background-color: black;
+        overflow: hidden;
+
+    }
+
+
+    .navbar {
+        background-color: hsl(280, 100%, 60%); /* Vermelho com 70% de luminosidade */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+
+        
+    }
+
+    .logo {
+        width: 55px;
+        height: auto;
+        margin-left: 50px;
+
+    }
+
+
+    .navbar-links {
+        display: inline;
+        margin-right: 200px;
+    }
+
+    .icons {
+        width: 50px;
+        height: auto;
+        padding-left: 60px;    
+    }
+
+    #icon-git {
+        width: 45px;
+        padding-bottom: 4px;
+    }
+
+   
+    .main {
+        height: 85vh;
+        width: 65vw;
+        overflow: auto;    
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        margin: 20px auto;
+        padding: 20px;
+        color: white;
+        margin-top: 150px;
+        margin-right: 300px;
+        
+
+        
+    }
+
+    .title {
+        font-size: 80px;
+        font-weight: bold;
+        margin-bottom: 30px;
+        /*font-size: 80px; */
+
+        
+    }
+
+    .text-apresentation {
+
+        display: inline-block; 
+        /*width: 50%; 
+        
+        padding: 20px; */
+        text-align: left;
+        margin-top: -100px;
+        
+        box-shadow: -8px 5px rgba(255, 255, 255);
+        padding-left: 80px;
+        padding-bottom: 30px; 
+        padding-right: 30px;
+        
+
+    }
+    .paragraph {
+    
+        margin-bottom: 20px;
+        /*
+        text-align: justify;
+        */
+    }
+
+    .projects {
+        display: inline-block;
+        margin-left: 40px; 
+        width: 1000px ;
+        
+    }
+
+    h2 {
+        text-align: left;
+        padding-left: 35px;
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    
+
+    ul  {
+        list-style-type: none;
+        margin-top: 11px;
+        
+    }
+
+    li {
+        margin-top: 10px;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+
+    .list-projects a {
+        transition: transform 0.25s ease;
+        display: inline-block;
+    }
+
+    .list-projects a:hover {
+        color: hsl(120,100%, 70%);
+        transform: scale(1.1);
+    }
+
+    .footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        text-align: end;
+        
+    }
+
+    .footer p {
+        display: inline-block;
+        margin-right: 300px;
+        margin-bottom: 30px;
+    }
