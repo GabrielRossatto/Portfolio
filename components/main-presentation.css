@@ -1,0 +1,32 @@
+.main-presentation {
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    
+
+    
+}
+
+
+
+.main-presentation .main-subtitle {
+    margin-top: -20px;
+    
+    
+}
+
+
+.paragraph {
+    font-family: 'Fira Code', sans-serif;
+    color: rgba(255,255,255, 0.4);
+    max-width: 20rem;
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.paragraph.-bg {
+    margin-top: -18px;
+    
+}
+

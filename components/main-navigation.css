@@ -1,0 +1,31 @@
+
+
+.main-navigation {
+    display: flex    ;
+    flex-direction: column;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+
+.main-navigation_item {
+    font-family: 'Fira Code', sans-serif;
+    color: rgba(255,255,255, 0.5);
+    font-size: 0.75em;
+    margin-top: 10px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+
+    
+    
+}
+
+.main-navigation_item:hover {
+    transform: translateX(10px);
+    color: #32ff7e	;
+
+ 
+}

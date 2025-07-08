@@ -1,0 +1,32 @@
+.scroll-section {
+    width: 100%;
+    margin-left: 50%;
+    
+}
+
+.scroll-section .text {
+    
+    
+    display: block; 
+    width: 100%;
+    max-width: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 140px;
+
+        
+    
+}
+
+.paragraph.-description {
+
+  width: 70%;
+  max-width: none;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 1.6;
+  letter-spacing: 0.05em;
+  margin-bottom: 30px;
+    
+
+}

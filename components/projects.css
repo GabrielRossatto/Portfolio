@@ -1,0 +1,42 @@
+.projects {
+    margin-top: 50px;
+    width: 70%;
+
+}
+
+
+.main-navigation_item.-second {
+    font-size: 20px;
+    display: inline-block;
+    margin-left: 10px;
+    letter-spacing: normal;
+    color: rgba(255,255,255,1);
+    transition: transform 0.3s ease-in-out;
+
+}
+
+.main-navigation_item.-second:hover {
+    transform: translateX(10px);
+    color: #32ff7e	;
+
+}
+
+
+.list {
+    display: flex;
+    margin-left: -41px;
+    margin-bottom: 20px;
+    
+}
+
+.language-list {
+    padding: 10px;
+    border-radius: 15%;
+    font-family: 'Fira Code', sans-serif;
+    list-style: none;
+    color: #fFF;
+    margin-left: 10px;
+    background-color: #142d45;
+    color: #57d9d2;
+     
+}
